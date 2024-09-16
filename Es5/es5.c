@@ -31,7 +31,7 @@ int main() {
         } else {
             odd++;
         }
-    } while (a + b < c);
+    } while (a + b >= c);
 
     printf("\n\n\tEven : %d\n\tOdd : %d\n\tNull : %d\n", even, odd, null);
 
