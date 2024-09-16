@@ -11,23 +11,33 @@ quando il valore letto è al di fuori dell’intervallo [A, B];
 
 int main() {
 
-    int a, b, num, sum, counter;
+    int a, b, num, sum = 0, i = 0;
 
-    // take a, b
     do {
         printf("Inserire a: ");
         scanf("%d", &a);
         printf("Inserire b: ");
         scanf("%d", &b);
-    } while (a > b)
 
-    // take num
+        if (a > b) {
+            printf("ATTENZIONE -> Devi inserire dei numeri tale per cui a < b sia vera.\n");
+        }
+    } while (a > b);
+
     do {
-        // Update sum
-        // and conunter
-    }
+        printf("Inserire numero: ");
+        scanf("%d", &num);
 
-    // calculate avarage
+        // If the number is correct then
+        // update the sum and the counter
+        if (num >= a && num <= b) {
+            sum += num;
+            i++;
+        }
+    } while (num >= a && num <= b);
+
+    // calculate and print avarage
+    printf("\n\tLa media e': %f", (double)(sum / i));
 
     printf("\n\n");
     return 0;
