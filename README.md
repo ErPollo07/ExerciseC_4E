@@ -2,6 +2,6 @@
 
 gcc es.c ; ./a.out
 
-## To including the math library
+## To include math library
 
 gcc es.c -lm ; ./a.out
