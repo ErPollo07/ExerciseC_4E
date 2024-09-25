@@ -12,7 +12,7 @@ ragione per cui non è stato possibile svolgere il calcolo.
 #include <stdio.h>
 #include <math.h>
 
-int main() {
+int main(int argc, char *argv[]) {
 
     int a, b;
     double division, radice;

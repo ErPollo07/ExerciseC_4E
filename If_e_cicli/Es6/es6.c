@@ -9,7 +9,7 @@ quando il valore letto è al di fuori dell’intervallo [A, B];
 
 #include <stdio.h>
 
-int main() {
+int main(int argc, char *argv[]) {
 
     int a, b, num, sum = 0, i = 0;
 

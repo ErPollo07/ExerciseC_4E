@@ -9,7 +9,7 @@ B e C finchè non vengono inseriti dei valori tali per cui A + B < C
 
 #include <stdio.h>
 
-int main() {
+int main(int argc, char *argv[]) {
 
     int a, b, c;
     int even = 0, odd = 0, null = 0;

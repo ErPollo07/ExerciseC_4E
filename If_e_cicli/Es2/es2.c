@@ -10,7 +10,7 @@ Progettare un algoritmo che effettui le seguenti operazioni:
 
 #include <stdio.h>
 
-int main() {
+int main(int argc, char *argv[]) {
 
     int a, b;
     int sum = 0, product;

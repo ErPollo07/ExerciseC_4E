@@ -7,7 +7,7 @@ programma termina quando uno dei due valori o entrambi sono uguali a zero.
 
 #include <stdio.h>
 
-int main() {
+int main(int argc, char *argv[]) {
 
     int a, b;
     double res;

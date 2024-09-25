@@ -1,5 +1,5 @@
 /* 
-Text of the exercise
+https://github.com/cristianogregnanin/language_C_exercises
 */
 
 #include <stdio.h>

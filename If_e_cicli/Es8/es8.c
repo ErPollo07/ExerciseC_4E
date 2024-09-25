@@ -10,7 +10,7 @@ permette di effettuare il calcolo (nel dominio dei numeri reali).
 #include <stdio.h>
 #include <math.h>
 
-int main() {
+int main(int argc, char *argv[]) {
 
     int N, a;
     double sum = 0;
