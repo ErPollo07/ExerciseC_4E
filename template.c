@@ -4,7 +4,7 @@ https://github.com/cristianogregnanin/language_C_exercises
 
 #include <stdio.h>
 
-int main() {
+int main(int argc, char *argv[]) {
 
     
 
